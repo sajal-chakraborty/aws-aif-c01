@@ -3,14 +3,14 @@
 ## Important notes
 
 
-## 📊 Gen‑AI Business Evaluation Metrics (AWS AIF‑C01)
+# 📊 Gen‑AI Business Evaluation Metrics (AWS AIF‑C01)
 
 This section outlines the **business metrics** used to evaluate Generative AI (Gen‑AI) models in the context of the AWS Certified AI Practitioner (AIF‑C01) exam.  
 Unlike technical metrics (accuracy, precision, recall, F1), these focus on **real-world business impact**.
 
 ---
 
-# 🔑 Key Metrics
+## 🔑 Key Metrics
 
 - **User Satisfaction**  
   Measures how happy users are with model outputs.  
@@ -75,31 +75,37 @@ Unlike technical metrics (accuracy, precision, recall, F1), these focus on **rea
 ---
 
 
-## 🎯 Overfitting, Underfitting & Bias–Variance Tradeoff
+# 🎯 Overfitting, Underfitting & Bias–Variance Tradeoff
 
-### 🔹 Underfitting
+## 🔹 Underfitting
 - Model is **too simple** → fails to capture underlying patterns.
 - **High Bias, Low Variance**.
 - Poor performance on both training and test data.
 - *Example*: Linear regression on a complex nonlinear dataset.
 
-### 🔹 Overfitting
+## 🔹 Overfitting
 - Model is **too complex** → memorizes noise in training data.
 - **Low Bias, High Variance**.
 - Excellent training accuracy, poor test/generalization performance.
 - *Example*: Deep decision tree that fits training points perfectly but fails on unseen data.
 
-### 🔹 Bias–Variance Relation
+## 🔹 Bias–Variance Relation
 - **Bias** = Error from overly simplistic assumptions (underfitting).
 - **Variance** = Error from sensitivity to training data fluctuations (overfitting).
 - **Tradeoff**:
   - High Bias → Underfit.
   - High Variance → Overfit.
   - Goal = Balance bias & variance for optimal generalization.
+- 👉 **Overfitting happens when a model performs very well on training data but fails to generalize to unseen (real/test) data.**
+- 👉 **Underfitting happens when a model performs poorly in both training and unseen (real/test) data.**
 
 ---
 
-### 🧠 Memory Hook
+## 🧠 Memory Hook
 - **Underfit = High Bias** (model too *dumb*).
 - **Overfit = High Variance** (model too *jumpy*).
-- **Sweet Spot** = Low Bias
+- **Sweet Spot** = Low Bias + Low Variance → best generalization.
+- 👉 **Overfitting happens when a model performs very well on training data but fails to generalize to unseen (real/test) data.**
+- 👉 **Underfitting happens when a model performs poorly in both training and unseen (real/test) data.**
+
+

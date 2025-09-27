@@ -108,4 +108,21 @@ Unlike technical metrics (accuracy, precision, recall, F1), these focus on **rea
 - 👉 **Overfitting happens when a model performs very well on training data but fails to generalize to unseen (real/test) data.**
 - 👉 **Underfitting happens when a model performs poorly in both training and unseen (real/test) data.**
 
+- **Overfitting** → Works great on training data ✅ but fails on test/real data ❌  
+  - Low Bias, High Variance  
+
+- **Underfitting** → Performs poorly even on training data ❌  
+  - High Bias, Low Variance  
+
+- **Balanced Fit** → Neither overfitting nor underfitting → good generalization  
+
+- **Bias** = Error from overly simple assumptions (→ underfitting)  
+  - Reduce by: more complex model, more features  
+
+- **Variance** = Sensitivity to training data changes (→ overfitting)  
+  - Reduce by: feature selection, cross‑validation  
+
+👉 **Goal** = Balance bias & variance for best generalization
+
+
 

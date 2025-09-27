@@ -3,14 +3,14 @@
 ## Important notes
 
 
-# 📊 Gen‑AI Business Evaluation Metrics (AWS AIF‑C01)
+## 📊 Gen‑AI Business Evaluation Metrics (AWS AIF‑C01)
 
 This section outlines the **business metrics** used to evaluate Generative AI (Gen‑AI) models in the context of the AWS Certified AI Practitioner (AIF‑C01) exam.  
 Unlike technical metrics (accuracy, precision, recall, F1), these focus on **real-world business impact**.
 
 ---
 
-## 🔑 Key Metrics
+# 🔑 Key Metrics
 
 - **User Satisfaction**  
   Measures how happy users are with model outputs.  

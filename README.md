@@ -73,3 +73,33 @@ Unlike technical metrics (accuracy, precision, recall, F1), these focus on **rea
 - In scenario questions, always ask: *“What does the business care about here?”*
 
 ---
+
+
+## 🎯 Overfitting, Underfitting & Bias–Variance Tradeoff
+
+### 🔹 Underfitting
+- Model is **too simple** → fails to capture underlying patterns.
+- **High Bias, Low Variance**.
+- Poor performance on both training and test data.
+- *Example*: Linear regression on a complex nonlinear dataset.
+
+### 🔹 Overfitting
+- Model is **too complex** → memorizes noise in training data.
+- **Low Bias, High Variance**.
+- Excellent training accuracy, poor test/generalization performance.
+- *Example*: Deep decision tree that fits training points perfectly but fails on unseen data.
+
+### 🔹 Bias–Variance Relation
+- **Bias** = Error from overly simplistic assumptions (underfitting).
+- **Variance** = Error from sensitivity to training data fluctuations (overfitting).
+- **Tradeoff**:
+  - High Bias → Underfit.
+  - High Variance → Overfit.
+  - Goal = Balance bias & variance for optimal generalization.
+
+---
+
+### 🧠 Memory Hook
+- **Underfit = High Bias** (model too *dumb*).
+- **Overfit = High Variance** (model too *jumpy*).
+- **Sweet Spot** = Low Bias

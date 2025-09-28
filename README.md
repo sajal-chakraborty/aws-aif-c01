@@ -172,3 +172,39 @@ Unlike technical metrics (accuracy, precision, recall, F1), these focus on **rea
 - **VAN = Observer** (pays attention to important parts of data).
 
 
+# 🤖 CNN vs RNN
+
+## 🔹 CNN (Convolutional Neural Network)
+- **Best for**: Spatial data (images, video, grid‑like data).
+- **Core Idea**: Uses convolutional filters/kernels to detect local patterns (edges, textures, shapes).
+- **Strengths**:
+  - Excellent at image recognition, object detection, computer vision.
+  - Automatically extracts features (no manual feature engineering).
+  - Parallelizable → faster training.
+- **Weaknesses**:
+  - Doesn’t handle sequential/temporal dependencies well.
+  - Needs large labeled datasets.
+
+---
+
+## 🔹 RNN (Recurrent Neural Network)
+- **Best for**: Sequential/temporal data (text, speech, time series).
+- **Core Idea**: Maintains a *hidden state* that carries information across time steps → “memory.”
+- **Strengths**:
+  - Captures order and context in sequences.
+  - Useful for NLP, speech recognition, forecasting.
+- **Weaknesses**:
+  - Training is harder (vanishing/exploding gradients).
+  - Slow (sequential processing, less parallelizable).
+  - Struggles with very long sequences (improved by LSTM/GRU).
+
+---
+
+## 📊 Quick Comparison Table
+
+| Aspect              | CNN (Convolutional NN)                 | RNN (Recurrent NN)                  |
+|---------------------|-----------------------------------------|--------------------------------------|
+| **Data Type**       | Spatial (images, video, grid)          | Sequential (text, speech, time series) |
+| **Architecture**    | Convolution + pooling layers            | Recurrent connections, hidden states |
+
+

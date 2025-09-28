@@ -208,7 +208,6 @@ Unlike technical metrics (accuracy, precision, recall, F1), these focus on **rea
 | **Architecture**    | Convolution + pooling layers            | Recurrent connections, hidden states |
 
 
-
 # 📊 Types of Machine Learning Algorithms
 Machine Learning algorithms are broadly grouped into four categories:
 
@@ -257,4 +256,44 @@ Machine Learning algorithms are broadly grouped into four categories:
 
 ### Association Rule Learning
 - **Apriori Algorithm** → Finds frequent itemsets and rules; used in market basket analysis.  
-- **Eclat Algorithm** → Efficient association
+- **Eclat Algorithm** → Efficient association rule mining; used in retail analytics.  
+
+---
+
+## 🔹 3. Reinforcement Learning
+**Definition**: Agent learns by interacting with an environment → rewards & penalties.  
+**Goal**: Learn optimal actions/policies.  
+
+### Model‑Free
+- **Q‑Learning** → Learns action values via rewards; used in game AI.  
+- **Deep Q‑Network (DQN)** → Uses deep learning for Q‑values; used in Atari games, self‑driving.  
+- **SARSA** → Updates Q‑values using actual action taken; used in robot navigation.  
+- **Policy Gradient (REINFORCE)** → Directly optimizes policy; used in robotics, text generation.  
+
+### Model‑Based
+- **DDPG** → Handles continuous action spaces; used in robotic control.  
+- **PPO** → Stable policy optimization; used in reinforcement learning benchmarks.  
+- **TRPO** → Trust‑region optimization for policies; used in robotics and simulations.  
+
+### Value‑Based
+- **Monte Carlo** → Learns from complete episodes; used in episodic tasks.  
+- **Temporal Difference (TD) Learning** → Updates from partial episodes; used in real‑time learning.  
+
+---
+
+## 🔹 4. Ensemble Learning
+**Definition**: Combine multiple models to improve performance.  
+
+### Techniques
+- **Bagging** → Trains models on random subsets; Random Forest is a classic example; used in classification tasks.  
+- **Boosting** → Sequentially improves weak learners; AdaBoost, Gradient Boosting, XGBoost; used in credit scoring, competitions.  
+- **Stacking** → Combines multiple models with a meta‑model; used in Kaggle ensemble solutions.  
+
+---
+
+## 🧠 Memory Hook
+- **Supervised** → “Teacher with answers” (classification, regression).  
+- **Unsupervised** → “Detective” (clustering, patterns).  
+- **Reinforcement** → “Trial & error with rewards” (games, robotics).  
+- **Ensemble** → “Wisdom of the crowd” (combine models).  
+

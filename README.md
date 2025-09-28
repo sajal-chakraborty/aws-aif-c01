@@ -208,3 +208,53 @@ Unlike technical metrics (accuracy, precision, recall, F1), these focus on **rea
 | **Architecture**    | Convolution + pooling layers            | Recurrent connections, hidden states |
 
 
+
+# 📊 Types of Machine Learning Algorithms
+Machine Learning algorithms are broadly grouped into four categories:
+
+---
+
+## 🔹 1. Supervised Learning
+**Definition**: Learn from labeled data (input + correct output).  
+**Goal**: Predict outcomes for unseen data.  
+
+### Classification (predict categories)
+- **Logistic Regression** → Classifies binary outcomes; used in spam detection, disease diagnosis.  
+- **Support Vector Machines (SVM)** → Finds best boundary between classes; used in image classification, handwriting recognition.  
+- **k‑Nearest Neighbors (k‑NN)** → Classifies based on nearest neighbors; used in recommendation systems, pattern recognition.  
+- **Naive Bayes** → Probabilistic classifier assuming feature independence; used in text classification, sentiment analysis.  
+- **Decision Trees** → Splits data into branches for prediction; used in loan approval, risk assessment.  
+- **Random Forest** → Ensemble of decision trees for robust predictions; used in fraud detection, credit scoring.  
+- **Gradient Boosting (XGBoost, LightGBM, CatBoost)** → Sequentially improves weak learners; used in credit scoring, Kaggle competitions.  
+- **Neural Networks (MLP)** → Learns complex nonlinear patterns; used in speech recognition, image tagging.  
+
+### Regression (predict continuous values)
+- **Linear Regression** → Predicts continuous values with a straight line; used in house price prediction, sales forecasting.  
+- **Ridge/Lasso Regression** → Regularized regression to prevent overfitting; used in financial forecasting, risk modeling.  
+- **Support Vector Regression (SVR)** → Uses SVM principles for regression; used in stock price prediction, time series.  
+- **Decision Tree Regression** → Splits data for continuous predictions; used in demand forecasting.  
+- **Random Forest Regression** → Ensemble of trees for regression tasks; used in insurance claim prediction.  
+- **Gradient Boosting Regression** → Sequential boosting for regression; used in energy load forecasting.  
+
+---
+
+## 🔹 2. Unsupervised Learning
+**Definition**: Learn from unlabeled data (no predefined outputs).  
+**Goal**: Discover hidden patterns or structure.  
+
+### Clustering
+- **k‑Means** → Groups data into k clusters; used in customer segmentation.  
+- **Hierarchical Clustering** → Builds nested clusters; used in gene expression analysis.  
+- **DBSCAN** → Finds dense clusters, marks outliers; used in anomaly detection.  
+- **Gaussian Mixture Models (GMM)** → Probabilistic clustering; used in speaker identification.  
+
+### Dimensionality Reduction
+- **Principal Component Analysis (PCA)** → Reduces dimensions while preserving variance; used in image compression, feature reduction.  
+- **t‑SNE** → Visualizes high‑dimensional data in 2D/3D; used in NLP embeddings visualization.  
+- **Linear Discriminant Analysis (LDA)** → Reduces dimensions while preserving class separability; used in face recognition.  
+- **Independent Component Analysis (ICA)** → Separates mixed signals; used in audio signal processing.  
+- **UMAP** → Nonlinear dimensionality reduction; used in large‑scale data visualization.  
+
+### Association Rule Learning
+- **Apriori Algorithm** → Finds frequent itemsets and rules; used in market basket analysis.  
+- **Eclat Algorithm** → Efficient association

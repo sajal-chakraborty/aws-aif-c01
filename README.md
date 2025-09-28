@@ -124,5 +124,51 @@ Unlike technical metrics (accuracy, precision, recall, F1), these focus on **rea
 
 👉 **Goal** = Balance bias & variance for best generalization
 
+# 🤖 GAN vs VAN
+
+## 🔹 GAN (Generative Adversarial Network)
+- **Introduced**: 2014 (Ian Goodfellow).
+- **Architecture**: Two neural nets in a zero‑sum game:
+  - **Generator** → creates synthetic data from noise.
+  - **Discriminator** → distinguishes real vs fake data.
+- **Goal**: Generator learns to fool the discriminator → produces realistic synthetic data.
+- **Applications**:
+  - Image generation (deepfakes, art, design).
+  - Super‑resolution (enhancing image quality).
+  - Data augmentation (synthetic training data).
+- **Challenges**: Training instability, mode collapse, high compute cost.
+
+---
+
+## 🔹 VAN (Vision Attention Network)
+- **Architecture**: Attention‑based deep learning model for computer vision.
+- **Core Idea**: Uses attention mechanisms (like Transformers) to focus on the most relevant parts of an image.
+- **Goal**: Improve feature extraction and representation for vision tasks.
+- **Applications**:
+  - Image classification.
+  - Object detection.
+  - Segmentation.
+- **Advantages**:
+  - Captures long‑range dependencies in images.
+  - Scales better than CNNs in some cases.
+- **Challenges**: Still evolving; less mature than GANs in generative tasks.
+
+---
+
+## 📊 Quick Comparison
+
+| Aspect              | GAN (Generative Adversarial Network) | VAN (Vision Attention Network) |
+|---------------------|---------------------------------------|--------------------------------|
+| **Purpose**         | Generate new, realistic data          | Improve vision understanding via attention |
+| **Core Mechanism**  | Generator vs Discriminator (adversarial) | Attention layers (focus on key regions) |
+| **Output**          | Synthetic data (images, text, audio) | Better classification/detection accuracy |
+| **Strength**        | Realistic content creation            | Strong feature extraction, long‑range context |
+| **Weakness**        | Hard to train, unstable               | Less proven in generative tasks |
+
+---
+
+## 🧠 Memory Hook
+- **GAN = Creator** (makes new data).  
+- **VAN = Observer** (pays attention to important parts of data).
 
 

@@ -295,5 +295,76 @@ Machine Learning algorithms are broadly grouped into four categories:
 - **Supervised** → “Teacher with answers” (classification, regression).  
 - **Unsupervised** → “Detective” (clustering, patterns).  
 - **Reinforcement** → “Trial & error with rewards” (games, robotics).  
-- **Ensemble** → “Wisdom of the crowd” (combine models).  
+- **Ensemble** → “Wisdom of the crowd” (combine models).
+
+
+# 📘 Deep Learning: Types, Usage & Quick Comparisons
+
+## 🔹 Vision Models
+- **Convolutional Neural Networks (CNNs)** → Detect spatial features with convolution filters.  
+  *Usage*: Image recognition, object detection, medical imaging.  
+
+- **Visual Attention Networks (VANs)** → Attention‑based vision backbone capturing long‑range dependencies.  
+  *Usage*: Image classification, segmentation, object detection.  
+
+👉 **Quick Comparison (GAN vs VAN)**  
+- **GAN = Creator** 🎨 (generates new synthetic data).  
+- **VAN = Observer** 👓 (focuses attention to understand images better).  
+
+---
+
+## 🔹 Sequence Models
+- **Recurrent Neural Networks (RNNs)** → Process sequential data with hidden states.  
+  *Usage*: Speech recognition, time‑series forecasting, NLP.  
+
+- **LSTM / GRU** → Advanced RNNs that capture long‑term dependencies.  
+  *Usage*: Machine translation, chatbots, stock prediction.  
+
+👉 **Quick Comparison (RNN vs CNN)**  
+- **RNN = Memory** 🧠 (remembers order/sequence).  
+- **CNN = Eyes** 👀 (sees spatial patterns).  
+
+---
+
+## 🔹 Generative Models
+- **Generative Adversarial Networks (GANs)** → Generator + Discriminator compete to create realistic data.  
+  *Usage*: Deepfakes, image generation, data augmentation.  
+
+- **Autoencoders** → Compress and reconstruct data to learn representations.  
+  *Usage*: Dimensionality reduction, anomaly detection, denoising.  
+
+👉 **Quick Comparison (GAN vs Autoencoder)**  
+- **GAN = Generate new data**.  
+- **Autoencoder = Compress & reconstruct existing data**.  
+
+---
+
+## 🔹 Attention & Modern Architectures
+- **Transformers** → Attention‑based, parallel sequence processing.  
+  *Usage*: NLP (translation, summarization, LLMs), Vision Transformers.  
+
+- **VAN (Vision Attention Network)** → Specialized transformer‑style backbone for vision tasks.  
+  *Usage*: Image classification, segmentation.  
+
+👉 **Quick Comparison (Transformer vs VAN)**  
+- **Transformer = General attention model** (text + vision).  
+- **VAN = Vision‑optimized attention model**.  
+
+---
+
+## 🔹 Decision‑Making Models
+- **Deep Reinforcement Learning (DRL)** → Combines deep nets with reinforcement learning.  
+  *Usage*: Robotics, self‑driving cars, game AI (AlphaGo).  
+
+---
+
+## 🧠 Memory Hooks
+- **CNN = Eyes** 👀  
+- **RNN/LSTM = Memory** 🧠  
+- **GAN = Creator** 🎨  
+- **Autoencoder = Compressor** 📦  
+- **Transformer = Attention** 🔦  
+- **VAN = Vision Attention** 👓  
+- **DRL = Trial & Error Learner** 🎮  
+
 
